@@ -1,0 +1,37 @@
+{
+  "name": "msk",
+  "version": "1.0.0",
+  "description": "coding challenge for developer position at memorial sloan kettering",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "dev": "webpack-dev-server --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobinLuongo/msk.git"
+  },
+  "author": "Robin Luongo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RobinLuongo/msk/issues"
+  },
+  "homepage": "https://github.com/RobinLuongo/msk#readme",
+  "dependencies": {
+    "babel-loader": "^8.0.6",
+    "core-js": "^3.6.4",
+    "css-loader": "^3.4.2",
+    "vue": "^2.6.11",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.3",
+    "@babel/core": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "vue-loader": "^15.8.3",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
