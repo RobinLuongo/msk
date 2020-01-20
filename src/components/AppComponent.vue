@@ -14,6 +14,7 @@
                 </CharacterCard>
             </div>
             <Paginate
+                v-if="pages > 0"
                 :page-count="pages"
                 :click-handler="pageChange"
                 :prev-text="'Prev'"
