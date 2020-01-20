@@ -3,7 +3,7 @@
         <md-card-header>
             <div>
                 <div class="md-title">{{ person.name }}</div>
-                <div class="md-subhead">{{ person.birth_year }}</div>
+                <div class="md-subhead">Birth Year: {{ person.birth_year }}</div>
             </div>
             <md-card-actions md-alignment="space-between">
                 <md-card-expand-trigger>
