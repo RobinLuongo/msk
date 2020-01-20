@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/RobinLuongo/msk#readme",
   "dependencies": {
+    "axios": "^0.19.1",
     "babel-loader": "^8.0.6",
     "core-js": "^3.6.4",
     "css-loader": "^3.4.2",
